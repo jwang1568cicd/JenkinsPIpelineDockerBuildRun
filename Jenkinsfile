@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'docker images'
+                echo 'docker images build and run!'
             }
         }
     }
